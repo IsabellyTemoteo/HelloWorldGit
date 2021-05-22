@@ -1,1 +1,33 @@
 oi
+
+// Esses comandos aqui devem ser rodados em um terminal
+
+// Inicializa um repositório local na pasta aberta no terminal
+git init
+
+// Os comandos abaixo só podem ser utilizados caso o repositório local já tenha sido criado
+
+// Adiciona um arquivo ou todos os arquivos de um diretório à stage area do git
+git add "<caminho para um arquivo ou diretório>"
+
+// Remove um arquivo da stage area do git
+git reset HEAD "<caminho para um arquivo ou diretório>"
+
+// Adiciona um repositório remoto denominado "origin"
+git remote add origin "<ip ou link do repositório remoto>"
+
+// Envia os commits do repositório local para um repositório remoto
+git push <nome do repositório remoto> <nome da branch que possui as novas alterações>
+
+// Cria uma nova branch no repositório local
+git branch <nome da nova branch>
+
+// Troca de branch no repositório local
+git checkout <nome da branch que voce quer olhar>
+
+// Cria uma nova branch e troca pra ela
+git checkout -b <nome da nova branch que voce quer trocar>
+
+// Verifica as alterações no stage da branch atual
+git status
+
